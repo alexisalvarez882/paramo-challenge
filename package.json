@@ -1,0 +1,28 @@
+{
+  "name": "paramo-challenge",
+  "version": "1.0.0",
+  "description": "Test Automation Framework for backend tests",
+  "author": "Alexis Alvarez",
+  "scripts": {
+    "lint": "eslint ./src",
+    "format": "prettier --check ./src/**/* --write",
+    "tests": "jest --config jest.config.js",
+    "report": "allure serve ./allure-results"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-json-schema": "^6.1.0",
+    "superagent-defaults": "^0.1.14",
+    "supertest": "^6.3.3",
+    "yarn-or-npm": "^3.0.1",
+    "chai": "^4.3.10",
+    "jest-allure": "^0.1.3",
+    "allure-commandline": "^2.24.1",
+    "jest-jasmine2": "^29.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "prettier": "^3.0.3"
+  }
+}
